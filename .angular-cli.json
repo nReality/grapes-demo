@@ -19,9 +19,19 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/grapesjs/dist/css/grapes.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../../../../open-source/grapesjs/dist/grapes.min.js",
+        "../node_modules/lodash/lodash.min.js",
+        "../node_modules/grapesjs-plugin-export/dist/grapesjs-plugin-export.min.js",
+        "../node_modules/grapesjs-blocks-basic/dist/grapesjs-blocks-basic.min.js",
+        "../node_modules/grapesjs-navbar/dist/grapesjs-navbar.min.js",
+        "../node_modules/grapesjs-plugin-forms/dist/grapesjs-plugin-forms.min.js",
+        "../grapes_plugin/grapesjs-preset-webpage/grapesjs-preset-webpage.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
